@@ -1,0 +1,99 @@
+body{
+    background-image: url(http://127.0.0.1:5500/HTML/8.%20JavaScript/Capstone/img/output.jpg);
+    background-size:contain;
+    opacity: 90%;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+ div{
+    align-self: center;
+    text-align: left;
+    background-color: none;
+    width: 80%;
+    margin:auto;
+    padding-bottom: 10px;
+}
+
+h3{
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Code+Pro:ital,wght@0,200;1,200&display=swap');
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    height: 10px;
+}
+
+p{
+    font-weight:bolder;
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+input{
+    color: black;
+    font-weight: bold;
+    font-size: normal;
+}
+
+input:checked+label{
+    color: blue;
+    font-weight: bolder;
+    font-size: large;
+}
+
+label:hover{
+    color: rgb(175, 214, 33);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+label{
+    color: rgb(2, 2, 30);        
+    font-weight: bold;
+    font-size: large;
+}
+
+button:hover{
+    color: brown;
+    font-weight: bolder;
+}
+
+button{
+    width:120px;
+    height: 30px;
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Code+Pro:ital,wght@0,200;1,200&display=swap');
+    font-family: 'Open Sans', sans-serif;
+}
+
+.padtop{
+    padding-top: 400px;
+}
+
+.header{
+    padding-left: 110px;
+}
+
+.submit{
+    padding-left: 580px;
+    padding-bottom: 50px;    
+}
+
+.submitbutton{
+    width: 180px;
+    height: 45px;
+    font-size: larger;
+    font-weight: bold;
+    border-color: brown;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#q9a2 input{
+color: black;
+font-weight: normal;
+font-size: normal;
+}
+
+#q9a2 input:checked+label{
+    color: blue;
+    font: bolder;
+    font-size: large;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+</head>
+<body>
+    <form action="" id="quizform">
+        <!--Heading of the quiz-->
+        <div>
+            <h2 class="header">Quiz designed using HTML, CSS & JavaScript</h2>
+        </div>
+        
+        <!--Question one and its options-->
+        <div>
+            <h3>Question 1.</h3>
+            <p>What is the current version of HTML?</p>
+            <input type="radio" id="q1a1" name="html_ver" value="4">
+            <label for="q1a1">4.0</label><br>
+            <input type="radio" id="q1a2" name="html_ver" value="5">
+            <label for="q1a2">5.0</label><br>
+            <input type="radio" id="q1a3" name="html_ver" value="6">
+            <label for="q1a3">6.0</label><br><br>
+        </div>
+        
+        <!--Question two and its options-->
+        <div>
+            <h3>Question 2.</h3>
+            <p>What is the latest version of CSS?</p>
+            <input type="radio" id="q2a1" name="css_ver" value="1">
+            <label for="q2a1">1.0</label><br>
+            <input type="radio" id="q2a2" name="css_ver" value="2">
+            <label for="q2a2">2.0</label><br>
+            <input type="radio" id="q2a3" name="css_ver" value="3">
+            <label for="q2a3">3.0</label><br><br>
+        </div>
+        
+        <!--Question three and its options-->
+        <div>
+            <h3>Question 3.</h3>
+            <p>What are the types of CSS?</p>
+            <input type="checkbox" id="q3a1" name="css_type" value="1">
+            <label for="q3a1">Inline</label><br>
+            <input type="checkbox" id="q3a2" name="css_type" value="2">
+            <label for="q3a2">Internal</label><br>
+            <input type="checkbox" id="q3a3" name="css_type" value="3">
+            <label for="q3a3">External</label><br><br>
+        </div>
+        
+        <!--Question four and its options-->
+          <div>
+            <h3>Question 4.</h3>
+            <p>Which type of CSS has the highest priority?</p>
+            <label for="q4">Answer</label>
+            <input type="text" id="q4" name="css_priority" style="font-size: large; color: blue;"><br><br>
+        </div>
+        
+        <!--Question five and its options-->
+        <div>
+            <h3>Question 5.</h3>
+            <p>How can we change the background color of an element?</p>
+            <input type="radio" id="q5a1" name="css_bgcol" value="1">
+            <label for="q5a1">background-color</label><br>
+            <input type="radio" id="q5a2" name="css_bgcol" value="2">
+            <label for="q5a2">color</label><br>
+            <input type="radio" id="q5a3" name="css_bgcol" value="3">
+            <label for="q5a3">Both A and B</label><br>
+            <input type="radio" id="q5a4" name="css_bgcol" value="4">
+            <label for="q5a4">None of the above</label><br><br>
+        </div>
+        
+        <!--Question six and its options-->
+        <div>
+            <h3>Question 6.</h3>
+            <p>Which should be the first tag in any HTML documents?</p>
+            <input type="radio" id="q6a1" name="html_tag" value="1">
+            <label for="q6a1">head</label><br>
+            <input type="radio" id="q6a2" name="html_tag" value="2">
+            <label for="q6a2">title</label><br>
+            <input type="radio" id="q6a3" name="html_tag" value="3">
+            <label for="q6a3">html</label><br>
+            <input type="radio" id="q6a4" name="html_tag" value="4">
+            <label for="q6a4">Document</label><br><br>
+        </div>
+            
+        <!--Question seven and its options-->
+        <div>
+            <h3>Question 7.</h3>
+            <p>How many sizes of headers are available in HTML by default?</p>
+            <input type="radio" id="q7a1" name="html_header" value="4">
+            <label for="q7a1">4</label><br>
+            <input type="radio" id="q7a2" name="html_header" value="5">
+            <label for="q7a2">5</label><br>
+            <input type="radio" id="q7a3" name="html_header" value="6">
+            <label for="q7a3">6</label><br>
+            <input type="radio" id="q7a4" name="html_header" value="10">
+            <label for="q7a4">10</label><br><br>
+
+        </div>
+
+        <!--Question eight and its options-->
+        <div>
+            <h3 class="padtop">Question 8.</h3>
+            <p>What are the types of lists available in HTML</p>
+            <input type="radio" id="q8a1" name="html_list" value="1">
+            <label for="q8a1">Ordered, Unordered Lists</label><br>
+            <input type="radio" id="q8a2" name="html_list" value="2">
+            <label for="q8a2">Bulleted, Numbered Lists</label><br>
+            <input type="radio" id="q8a3" name="html_list" value="3">
+            <label for="q8a3">Named, Unnamed Lists</label><br>
+            <input type="radio" id="q8a4" name="html_list" value="4">
+            <label for="q8a4">None of the above</label><br><br>
+            <button type="button" onclick="check(8)">Check Answer</button>
+        </div>
+
+         <!--Question nine and its options-->
+         <div id="Q9">
+            <h3>Question 9.</h3>
+            <p>How to create an ordered list in HTML?</p>
+            <input type="radio" id="q9a1" name="html_ol" value="1">
+            <label for="q9a1">&lt;ul&gt;</label><br>
+            <input type="radio" id="q9a2" name="html_ol" value="2">
+            <label for="q9a2">&lt;ol&gt;</label><br>
+            <input type="radio" id="q9a3" name="html_ol" value="3">
+            <label for="q9a3">&lt;href&gt;</label><br>
+            <input type="radio" id="q9a4" name="html_ol" value="4">
+            <label for="q9a4">&lt;a&gt;</label><br><br>
+            <button type="button" onclick="check(9)">Check Answer</button><br><br>
+        </div>
+
+            <!--Submit-->
+        <div class="submit">
+            <h3></h3>
+           <button type="button" class="submitbutton" onclick="validate()">Submit</button>
+        </div>
+    </form>
+    <script>
+        toggle8 = false;
+        toggle9 = false;
+    </script>
+</body>
+</html>
